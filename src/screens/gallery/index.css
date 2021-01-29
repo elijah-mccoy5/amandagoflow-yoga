@@ -1,0 +1,92 @@
+.gallery-header {
+  font-family: "Unna", serif;
+}
+.gallery-photo-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.learn-more-div :hover {
+  opacity: 0.8;
+}
+.learn-more-image {
+  object-position: center;
+  object-fit: contain;
+}
+@media only screen and (max-width: 600px) {
+  .learn-more-image {
+    background-position: center;
+    height: 15vh;
+  }
+  .learn-more-div {
+    height: 15vh;
+    width: 25vw;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .gallery-container {
+    margin-top: 10vh;
+    width: 100%;
+  }
+  .gallery-header {
+    font-size: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .learn-more-image {
+    background-position: center;
+    height: 15vh;
+  }
+  .learn-more-div {
+    height: 15vh;
+    width: 25vw;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .gallery-container {
+    margin-top: 10vh;
+    width: 100%;
+  }
+  .gallery-header {
+    font-size: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery-header {
+    font-size: 5vh;
+    margin-bottom: 8vh;
+  }
+  .learn-more-image {
+    object-position: center;
+    object-fit: contain;
+    height: 25vh;
+  }
+  .learn-more-div {
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    height: 25vh;
+    width: 12vw;
+    overflow: hidden;
+  }
+  .gallery-container {
+    margin-top: 15vh;
+  }
+}

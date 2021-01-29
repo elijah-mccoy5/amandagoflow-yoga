@@ -1,0 +1,60 @@
+.fitness-photo {
+  background-image: url("../../assets/amandagoflow-img12.JPG");
+  background-size: cover;
+  background-position: 0% 87%;
+  width: 100vw;
+  height: 89vh;
+}
+.fitness-header {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.priv-sess2 {
+  font-weight: bolder;
+}
+@media only screen and (max-width: 600px) {
+  .fitness-photo {
+    background-size: cover;
+    background-position: 45% 0%;
+    height: 60vh;
+  }
+  .fitness-header {
+    font-size: 7vh;
+    margin-top: 25vh;
+  }
+  .classes-contain {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .fitness {
+    font-size: 2vh;
+  }
+}
+.desc4 {
+  margin-top: 5vh;
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .fitness-header {
+    padding: 5vh;
+    font-size: 13vh;
+    margin-top: 35vh;
+  }
+  .desc4 {
+    margin-top: 5vh;
+  }
+}

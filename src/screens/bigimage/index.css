@@ -1,0 +1,54 @@
+.youtube-vid-head {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-big-img {
+    margin-top: 8vh;
+    height: 30vh;
+  }
+  .youtube-vid-head {
+    width: 50%;
+    font-size: 3.3vh;
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .home-big-img {
+    margin-top: 8vh;
+    height: 30vh;
+  }
+  .youtube-vid-head {
+    width: 50%;
+    font-size: 7vh;
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-big-img {
+    margin-top: 8vh;
+    height: 50vh;
+    width: 50vw;
+  }
+  .youtube-vid-head {
+    margin-top: 8vh;
+  }
+}
+
+.img-div :hover {
+  opacity: 0.6;
+}

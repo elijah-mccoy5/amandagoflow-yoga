@@ -1,0 +1,10 @@
+.checkout-container {
+  margin-top: 45vh;
+}
+.pricing-picture {
+  background-image: url("../../assets/amandagoflow-img7.JPG");
+  background-size: contain;
+  background-position: 0% 92%;
+  width: 100vw;
+  height: 80vh;
+}

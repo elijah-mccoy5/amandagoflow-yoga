@@ -1,0 +1,173 @@
+.home-image {
+  background-image: url("../../assets/amandagoflow-img9.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  scroll-behavior: smooth;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1000;
+  top: 0;
+}
+.hidden {
+  overflow-x: hidden;
+}
+.home-words {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* border: 4px solid whitesmoke; */
+  border-radius: 1vh;
+}
+.quotes {
+  font-family: "Raleway", sans-serif;
+}
+
+#home-down {
+  color: white;
+}
+.home-quote {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  border-radius: 2vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.home-little-quote {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Tangerine", cursive;
+  color: black;
+}
+.home-header {
+  color: white;
+  font-weight: bolder;
+  font-family: "Nothing You Could Do", cursive;
+  text-shadow: 2px 2px 6px black;
+}
+
+.homepage-section {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.nav-links:hover {
+  color: #648c93;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-header {
+    font-size: 5.5vh;
+    padding-top: 2vh;
+  }
+  .home-quote {
+    font-size: 2.5vh;
+    padding-bottom: 2vh;
+  }
+  .home-little-quote {
+    width: 80%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 5vh;
+  }
+  .home-image {
+    background-position: 46% 0%;
+  }
+  .home-words {
+    margin-top: 20vh;
+    margin-right: 20vw;
+    margin-left: 5vw;
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .home-header {
+    font-size: 5.5vh;
+    padding-top: 2vh;
+  }
+  .home-quote {
+    font-size: 2.5vh;
+    padding-bottom: 2vh;
+  }
+  .home-little-quote {
+    width: 80%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 5vh;
+  }
+  .home-image {
+    background-position: 46% 0%;
+  }
+  .home-words {
+    margin-top: 20vh;
+    margin-right: 20vw;
+    margin-left: 30vw;
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-header {
+    font-size: 9vh;
+  }
+
+  .home-words {
+  }
+  .home-quote {
+    font-size: 2vh;
+    width: 40%;
+    padding-bottom: 2vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .home-header {
+    font-size: 9vh;
+    padding: 2vh;
+  }
+  .home-words {
+    margin-top: 40vh;
+  }
+  .home-quote {
+    font-size: 2vh;
+    margin-left: 44vw;
+  }
+  .home-little-quote {
+    width: 80%;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    font-size: 5vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-header {
+    font-size: 12vh;
+    padding: 2vh;
+  }
+  .home-quote {
+    font-size: 3.5vh;
+    margin-right: 42vw;
+  }
+  .home-little-quote {
+    width: 50%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 5vh;
+  }
+  #home-down {
+    font-size: 15vh;
+  }
+  .home-words {
+    margin-top: 30vh;
+    margin-right: 8vw;
+    margin-left: 32vw;
+    width: 35%;
+  }
+}

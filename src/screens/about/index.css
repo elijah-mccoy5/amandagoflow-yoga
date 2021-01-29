@@ -1,0 +1,208 @@
+.about-picture {
+  background-image: url("../../assets/amandagoflow-img3.jpeg");
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: 20% 40%;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  z-index: -1000;
+  overflow: hidden;
+  top: 0;
+}
+.about-quote {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.about-little-quote {
+  width: 50%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-family: "Unna", serif;
+  font-size: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+.about-header {
+  font-family: "Unna", serif;
+}
+.about-words {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+.about-me {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+}
+.quali {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+.qualifications {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+.happy-text {
+  font-family: "Nothing You Could Do", cursive;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+  .about-words {
+    margin-top: 2vh;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    line-height: 2.5;
+    font-size: 15px;
+  }
+  .about-header {
+    margin-top: 5vh;
+  }
+  .about-picture {
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+
+  .about-quote {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 2.4vh;
+    width: 80%;
+  }
+  .about-me {
+    font-size: 7vh;
+    padding: 2vh;
+    margin-top: 35vh;
+  }
+  .quali {
+    font-size: 2vh;
+    padding-top: 2vh;
+  }
+  .qualifications {
+    font-size: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+  }
+  .happy-text {
+    font-size: 3.4vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .about-header {
+    font-size: 4vh;
+  }
+  .about-words {
+    margin-top: 2vh;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    line-height: 2.5;
+    font-size: 15px;
+  }
+  .about-header {
+    margin-top: 5vh;
+  }
+
+  .about-quote {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 2.4vh;
+    width: 80%;
+  }
+  .about-me {
+    font-size: 7vh;
+    padding: 2vh;
+    margin-top: 35vh;
+  }
+  .quali {
+    font-size: 2vh;
+    padding-top: 2vh;
+  }
+  .qualifications {
+    font-size: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+  }
+  .happy-text {
+    font-size: 3.4vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-words {
+    margin-top: 5vh;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    line-height: 2.5;
+    font-size: 25px;
+  }
+  .about-quote {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 2.4vh;
+    width: 70%;
+  }
+  .about-me {
+    padding: 2vh;
+    font-size: 13vh;
+    margin-top: 30vh;
+  }
+  .about-header {
+  }
+  .quali {
+    font-size: 2.5vh;
+    padding-top: 1vh;
+  }
+  .qualifications {
+    font-size: 6vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-right: 0vh;
+  }
+  .happy-text {
+    font-size: 6vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 0vh;
+  }
+}

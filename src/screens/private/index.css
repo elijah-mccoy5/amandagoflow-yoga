@@ -1,0 +1,292 @@
+.private-picture {
+  background-image: url("../../assets/amandagoflow-img13.JPG");
+  background-size: contain;
+  background-position: 50% 90%;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  z-index: -1000;
+  overflow: hidden;
+  top: 0;
+}
+.sessions {
+}
+.desc {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+.desc2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+.book-policy2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+}
+.all-options {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+
+  flex-direction: row;
+}
+.class-desc {
+  margin-right: auto;
+  margin-left: auto;
+}
+.session-headers {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+.priv-sessions {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+.session-lets {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+.schedule-btn {
+  color: black;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-right: 2vw;
+  outline: none;
+  border-radius: 5px;
+}
+#insta {
+  color: black;
+}
+#fb {
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .all-options {
+    flex-direction: column;
+  }
+  .session-headers {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-size: 4vh;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .session-prices {
+    font-size: 2.5vh;
+  }
+  .class-desc-pic {
+    width: 85vw;
+    height: 30vh;
+  }
+  .class-desc-pic2 {
+    width: 75vw;
+    height: 35vh;
+  }
+  .priv-sessions {
+    margin-top: 5vh;
+    font-size: 5vh;
+  }
+  .session-headers {
+    font-size: 4vh;
+    margin-bottom: 4vh;
+  }
+  .session-lets {
+    font-size: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .desc {
+    width: 75%;
+    font-size: 1.6vh;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .desc2 {
+    font-size: 1.6vh;
+  }
+  .desc p {
+    margin-top: 1vh;
+  }
+  .desc2 p {
+    margin-top: 1vh;
+  }
+  .schedule-btn {
+    align-items: center;
+    height: 10vh;
+    width: 60vw;
+    font-size: 1.6vh;
+    margin-top: 8vh;
+  }
+  .book-policy2 {
+    padding-top: 1vh;
+    font-size: 2vh;
+    width: 80vw;
+    margin-bottom: 3vh;
+    line-height: 3;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .all-options {
+    flex-direction: column;
+  }
+  .session-headers {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-size: 4vh;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .session-prices {
+    font-size: 2.5vh;
+  }
+  .class-desc-pic {
+    width: 60vw;
+    height: 30vh;
+  }
+  .class-desc-pic2 {
+    width: 48vw;
+    height: 35vh;
+  }
+  .priv-sessions {
+    margin-top: 5vh;
+    font-size: 5vh;
+  }
+  .session-headers {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-size: 4vh;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .session-lets {
+    font-size: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .desc {
+    width: 75%;
+    font-size: 1.6vh;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .desc2 {
+    font-size: 1.6vh;
+  }
+  .desc p {
+    margin-top: 1vh;
+  }
+  .desc2 p {
+    margin-top: 1vh;
+  }
+  .schedule-btn {
+    align-items: center;
+    height: 10vh;
+    width: 60vw;
+    font-size: 1.6vh;
+    margin-top: 8vh;
+  }
+  .book-policy2 {
+    padding-top: 1vh;
+    font-size: 2vh;
+    width: 80vw;
+    margin-bottom: 3vh;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .all-options {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 50vw;
+  }
+  .session-lets {
+    margin-top: 5vh;
+  }
+  .sessions-options {
+    margin-right: 15vw;
+    font-size: 2vh;
+  }
+  .bundles-options {
+    font-size: 2vh;
+  }
+  .priv-sessions {
+    margin-top: 5vh;
+    font-size: 5vh;
+  }
+  .session-headers {
+    font-size: 4vh;
+    margin-bottom: 4vh;
+  }
+  .session-prices {
+    font-size: 2.5vh;
+  }
+  .class-desc-pic {
+    width: 38vw;
+    height: 40vh;
+  }
+  .class-desc-pic2 {
+    width: 35vw;
+    height: 58vh;
+  }
+  .class-desc {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .desc {
+    font-size: 2vh;
+    width: 30%;
+    text-align: left;
+    margin-left: 5vh;
+  }
+  .desc2 {
+    font-size: 2vh;
+    width: 30%;
+    margin-left: 5vh;
+    text-align: center;
+    align-content: center;
+  }
+  .desc p {
+    margin-top: 1vh;
+  }
+  .desc2 p {
+    margin-bottom: 3vh;
+  }
+  .schedule-btn {
+    align-items: center;
+    height: 10vh;
+    width: 20vw;
+    font-size: 2vh;
+    margin-top: 10vh;
+  }
+  .book-policy2 {
+    font-size: 2vh;
+    width: 40vw;
+    margin-bottom: 3vh;
+    line-height: 3;
+    text-align: left;
+  }
+}

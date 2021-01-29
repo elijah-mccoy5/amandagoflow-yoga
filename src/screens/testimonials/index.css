@@ -1,0 +1,123 @@
+.testi-container {
+  justify-content: center;
+}
+.testi {
+  line-height: 2;
+  /* background-color: rgba(0, 0, 0, 0.01); */
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  align-self: center;
+  color: black;
+  justify-content: center;
+  text-align: center;
+}
+.indi-test {
+  justify-content: center;
+}
+.all-testimonials {
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid black;
+}
+.quotes {
+  margin-left: auto;
+  margin-right: auto;
+}
+.testi-header {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .testi {
+    font-size: 1.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 85vw;
+    height: 45vh;
+    margin-bottom: 1vh;
+  }
+  .all-testimonials {
+    margin-top: 10vh;
+    height: 55vh;
+    border: none;
+  }
+  .testi-header {
+    margin-top: 8vh;
+    font-size: 6vh;
+    margin-bottom: 5vh;
+  }
+  .quotes {
+    margin-top: 5vh;
+    width: 80%;
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .testi {
+    font-size: 1.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 85vw;
+    height: 45vh;
+    margin-bottom: 1vh;
+  }
+  .all-testimonials {
+    margin-top: 10vh;
+    height: 55vh;
+    border: none;
+  }
+  .testi-header {
+    margin-top: 8vh;
+    font-size: 6vh;
+    margin-bottom: 5vh;
+  }
+  .quotes {
+    margin-top: 5vh;
+    width: 80%;
+    font-size: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .testi {
+    font-size: 2.3vh;
+    width: 70vw;
+    height: 30vh;
+    margin-bottom: 5vh;
+  }
+  .testi-header {
+    font-size: 7vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    width: 50%;
+  }
+  .all-testimonials {
+    height: 60vh;
+    margin-top: 20vh;
+    width: 80%;
+    margin-bottom: 5vh;
+  }
+  .quotes {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 60%;
+    font-size: 4vh;
+  }
+}

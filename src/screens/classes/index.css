@@ -1,0 +1,239 @@
+.class-photo {
+  background-image: url("../../assets/amandagoflow-img6.jpeg");
+  background-size: contain;
+  background-position: center;
+  width: 100vw;
+  height: 80vh;
+}
+.book-class {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+}
+.book-class2 {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+}
+.book-btn {
+  color: black;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border-radius: 5px;
+}
+.book-policy {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+}
+.yoga-philosophy {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.book-sessions {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.priv-sess {
+  flex-direction: column;
+}
+.class-types {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.schedule-btn {
+  color: black;
+  background-color: white;
+}
+.schedule-btn :hover {
+  color: white;
+  background-color: black;
+}
+.desc4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.yoga-div :hover {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 600px) {
+  .class-photo {
+    background-size: cover;
+  }
+  .book-class {
+    font-size: 5vh;
+    margin-top: 5vh;
+    padding: 1vh;
+  }
+  .book-class2 {
+    font-size: 3vh;
+    margin-top: 5vh;
+    padding: 1vh;
+  }
+  .class-types {
+    display: flex;
+    flex-direction: column;
+  }
+  .priv-sess {
+    margin-top: 5vh;
+    font-size: 4.5vh;
+  }
+  .book-btn {
+    margin-top: 1vh;
+    font-size: 2vh;
+    width: 70vw;
+    height: 8vh;
+    margin-bottom: 1vh;
+  }
+  .book-policy {
+    margin-top: 5vh;
+    font-size: 2vh;
+    width: 80vw;
+    margin-bottom: 3vh;
+  }
+
+  .yoga-philosophy {
+    margin-top: 5vh;
+  }
+  .yoga-pic {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    height: 38vh;
+    width: 78vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .class-photo {
+    background-size: contain;
+  }
+  .book-class {
+    font-size: 5vh;
+    margin-top: 5vh;
+    padding: 1vh;
+  }
+  .book-class2 {
+    font-size: 3vh;
+    margin-top: 5vh;
+    padding: 1vh;
+  }
+  .class-types {
+    display: flex;
+    flex-direction: row;
+  }
+  .priv-sess {
+    margin-top: 5vh;
+    font-size: 4.5vh;
+  }
+  .book-btn {
+    margin-top: 1vh;
+    font-size: 2vh;
+    width: 30vw;
+    height: 8vh;
+    margin-bottom: 1vh;
+  }
+  .book-policy {
+    margin-top: 5vh;
+    font-size: 2vh;
+    width: 80vw;
+    margin-bottom: 3vh;
+  }
+
+  .yoga-philosophy {
+    margin-top: 5vh;
+  }
+  .yoga-pic {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    height: 38vh;
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .book-class {
+    padding: 2vh;
+    margin-top: 5vh;
+    font-size: 10vh;
+  }
+  .book-class2 {
+    padding: 2vh;
+    margin-top: 5vh;
+    font-size: 5vh;
+  }
+  .priv-sess2 {
+    font-size: 6vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    width: 100%;
+  }
+  .book-btn {
+    margin-top: 3vh;
+    font-size: 2vh;
+    width: 15vw;
+    height: 8vh;
+  }
+  .book-policy {
+    margin-top: 5vh;
+    font-size: 2vh;
+    width: 60vw;
+    margin-bottom: 3vh;
+  }
+
+  .class-types {
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    display: flex;
+    font-size: 3vh;
+    flex-direction: row;
+  }
+  .schedule-btn {
+    width: 30vh;
+  }
+  .yoga-philosophy {
+    margin-top: 5vh;
+    font-size: 6vh;
+  }
+  .yoga-pic {
+    margin-top: 6vh;
+    height: 58vh;
+    width: 32vw;
+  }
+  .yoga-phil {
+    line-height: 3;
+    font-size: 2vh;
+  }
+
+  .desc4 {
+    font-size: 2vh;
+    width: 50%;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    text-align: center;
+    align-content: center;
+  }
+  .desc4 p {
+    font-size: 2.5vh;
+    margin-bottom: 3vh;
+  }
+}

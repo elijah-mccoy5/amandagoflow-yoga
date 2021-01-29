@@ -1,0 +1,122 @@
+.learn-more-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.learn-more-jt {
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+.learn-more-btn {
+  color: black;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  outline: none;
+  margin-right: 2vw;
+  border-radius: 5px;
+}
+.learn-btns :hover {
+  color: white;
+  background-color: black;
+}
+.learn-btns a {
+  width: 100%;
+  overflow: hidden;
+}
+.learn-more {
+  flex-direction: column;
+}
+.learn-more-name {
+  font-family: "Unna", serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .learn-more-btn {
+    margin-top: 3vh;
+    height: 7vh;
+    width: 40vw;
+    font-size: 2vh;
+  }
+  .learn-btns a {
+    height: 7vh;
+    width: 40vw;
+    overflow: hidden;
+  }
+  .learn-more-name {
+    font-size: 3vh;
+  }
+  .learn-more-container {
+    flex-direction: column;
+  }
+  .learn-more-jt {
+    font-size: 3.5vh;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .learn-more-btn {
+    margin-top: 3vh;
+    height: 7vh;
+    width: 40vw;
+    font-size: 2vh;
+    overflow: hidden;
+  }
+  .learn-more-name {
+    font-size: 2vh;
+  }
+  .learn-more-container {
+    flex-direction: column;
+  }
+  .learn-more-jt {
+    font-size: 5vh;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .learn-more-btn {
+    height: 5vh;
+    width: 18vw;
+    font-size: 1.5vh;
+  }
+  .learn-more {
+    margin-right: 5vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .learn-more-btn {
+    height: 8vh;
+    width: 19vw;
+    font-size: 2vh;
+  }
+  .learn-more {
+    margin-right: 5vw;
+  }
+  .learn-more-name {
+    font-size: 7vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .learn-more-name {
+    margin-top: 5vh;
+    font-size: 5vh;
+  }
+  .learn-more-jt {
+    font-size: 5vh;
+  }
+  .learn-more {
+    margin-right: 8vw;
+  }
+  .learn-more-btn {
+    align-items: center;
+    height: 10vh;
+    width: 20vw;
+    font-size: 4vh;
+  }
+}

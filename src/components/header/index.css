@@ -1,0 +1,74 @@
+.header {
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header-logo {
+  font-family: "Major Mono Display", monospace;
+  text-shadow: 2px 2px 15px black;
+  font-weight: bold;
+  color: white;
+  margin-right: auto;
+  font-size: 4vh;
+  text-decoration: none;
+  outline: none;
+}
+.header-logo :target {
+  color: white;
+}
+.nav-links {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2vh;
+  text-shadow: 2px 2px 15px black;
+  color: white;
+  margin-right: 3vh;
+}
+.nav-links:hover {
+  color: royalblue;
+}
+.lower {
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 600px) {
+  .header-logo {
+    font-size: 3vh;
+  }
+  .header {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
